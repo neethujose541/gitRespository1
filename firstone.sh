@@ -5,3 +5,7 @@ read -p "Enter Number 1" x
 read -p "Enter Number 2" y
 ((sum = x+y))
 echo "The sum is" $sum
+echo "Lets substract two numbers"
+((subResult=x-y))
+echo $subResult
+
