@@ -1,3 +1,4 @@
+
 echo "This is the firstone"
 echo "This is the first initialization"
 echo "Enter your number to calculate"
@@ -8,4 +9,7 @@ echo "The sum is" $sum
 echo "Lets substract two numbers"
 ((subResult=x-y))
 echo $subResult
+echo "Lets Multiply"
+((MultResult = x*y))
+echo $multResult
 
